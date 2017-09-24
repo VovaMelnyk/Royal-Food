@@ -26,5 +26,5 @@ $ gulp
 * [Responsive slider](http://responsiveslides.com/)
 * [Fancy Box 3](http://fancyapps.com/fancybox/3/)
 
-[Demo on github pages](https://vovamelnyk.github.io/Royal-Food/).
+Demo [github pages](https://vovamelnyk.github.io/Royal-Food/) or [built branch](https://github.com/VovaMelnyk/Royal-Food/tree/gh-pages) .  
 
