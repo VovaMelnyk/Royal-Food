@@ -1,0 +1,21 @@
+@import "core/tools/tools";
+
+.container {
+  width: 100%;
+  max-width: 75rem;
+  min-width: 20rem;
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+
+  &--header {
+    padding: 1rem 0.937rem;
+    @media #{$tablet} {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    @media #{$notebook} {
+      padding-right: 1.875rem;
+      padding-left: 1.875rem;
+    }
+  }
+}

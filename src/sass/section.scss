@@ -1,0 +1,59 @@
+@import "core/tools/tools";
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @media #{$mobile} {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  &__header {
+    text-align: center;
+    padding-bottom: 2rem;
+    @media #{$mobile} {
+      padding-bottom: 5rem;
+    }
+
+    &--subscribe {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    &--service {
+      @media #{$notebook} {
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+    }
+    &--gallery {
+      @media #{$mobile} {
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+    }
+
+    &--team {
+      @media #{$mobile} {
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+    }
+
+    &--contact {
+      @media #{$tablet} {
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+    }
+  }
+  &__title {
+    @media #{$mobile} {
+      font-size: $title-font-size-desktop;
+    }
+  }
+}
+

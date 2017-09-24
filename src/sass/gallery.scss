@@ -1,0 +1,15 @@
+@import "core/tools/tools";
+
+.gallery {
+
+  &__item {
+    border: 0.5rem solid #dbdbdb;
+    margin-bottom: 1.25rem;
+    @media #{$mobile} {
+      flex-basis: 46%;
+    }
+    @media #{$notebook} {
+      flex-basis: 22%;
+    }
+  }
+}
