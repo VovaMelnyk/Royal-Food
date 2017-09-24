@@ -1,19 +1,10 @@
 {
-  "name": "gulp-project-template",
+  "name": "Royal Food",
   "version": "1.1.0",
-  "description": "Gulp Project Template",
+  "description": "Royal Food",
   "main": "index.js",
   "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axZerk/gulp-project-tpl.git"
-  },
-  "author": "ax.Zerk",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/axZerk/gulp-project-tpl/issues"
-  },
-  "homepage": "https://github.com/axZerk/gulp-project-tpl#readme",
   "devDependencies": {
     "babel-preset-env": "^1.5.2",
     "browser-sync": "^2.18.12",
