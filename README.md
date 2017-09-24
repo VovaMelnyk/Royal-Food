@@ -11,7 +11,7 @@ $ npm install
 $ gulp
 ```
  
-## Technology used
+## Technologies used
 
 * HTML 5
 * Flex box
